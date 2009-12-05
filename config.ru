@@ -10,6 +10,8 @@ end
 
 require 'sinatra'
 
+set :views, "#{ENV['RACK_ROOT']}/views"
+
 require 'lib/ding'
 require 'rack_hoptoad'
 
