@@ -1,6 +1,8 @@
 require 'datamapper'
 require 'erb'
 require 'do_postgres'
+gem 'data_objects', '=0.9.11'
+require 'data_objects'
 
 config_dir = File.expand_path(File.dirname(__FILE__))
 database_file = File.read(File.join(config_dir,'database.yml'))
