@@ -1,4 +1,4 @@
-datamapper --version 0.10.1
+datamapper --version 0.9.11
 sinatra --version 0.9.4
 rack_hoptoad
 do_postgres
