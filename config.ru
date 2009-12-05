@@ -12,6 +12,7 @@ require 'sinatra'
 
 require 'lib/ding'
 require 'rack_hoptoad'
+require 'do_postgres'
 
 use Rack::HoptoadNotifier, '276a4c0a1715e7a29f976677bee2beff'
 
