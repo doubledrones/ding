@@ -1,5 +1,4 @@
-clear_sources
-source 'http://gemcutter.org'
+source :rubygems
 source 'http://gems.github.com'
 
 gem 'extlib', '=0.9.13'
